@@ -1,0 +1,42 @@
+.hero-banner {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+    .painel-esquerda {
+      h2{
+        font-size: 4rem;
+        font-weight: 200;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+
+    }
+    .painel-direita {
+      position: relative;
+
+      .button-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        a {
+          background-color: rgb(255, 255, 255);
+          padding: 0px 32px;
+          color: rgb(92, 39, 175);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          line-height: 0;
+          width: fit-content;
+          height: 60px;
+          font-size: 1rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
