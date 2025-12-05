@@ -16,8 +16,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: rgb(116, 51, 218);
+  --link-hover-color: rgb(91, 40, 170);
 
   /* fonts */
   --body-font-family: poppins, roboto-fallback, sans-serif;
@@ -107,7 +107,7 @@ h6 {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.25;
   scroll-margin: 40px;
 }
@@ -177,8 +177,7 @@ button {
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.25;
+  line-height: 2;
   text-align: center;
   text-decoration: none;
   background-color: var(--link-color);
@@ -187,6 +186,8 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 a.button:hover,
@@ -254,4 +255,7 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+main .section.centralizado {
+    text-align: center;
 }

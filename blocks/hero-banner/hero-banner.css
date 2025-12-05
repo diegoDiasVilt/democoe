@@ -39,4 +39,9 @@
       }
     }
   }
+  @media (max-width: 975px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
 }
